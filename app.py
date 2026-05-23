@@ -15,5 +15,5 @@ def show_pokedex():
   
     return render_template("index.html", pokemon_list=pokemon_list)
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
